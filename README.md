@@ -1,7 +1,7 @@
 # Elora's PMU — Lip Blushing Landing Page
 
-**Live Demo:** `[your-vercel-url]`  
-**GitHub Repo:** https://github.com/rishu9354/Lip-Blushing
+**Live Demo:**  https://lip-blushing-opal.vercel.app/
+**GitHub Repo:**  https://github.com/rishu9354/Lip-Blushing
 
 ---
 
