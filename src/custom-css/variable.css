@@ -1,0 +1,37 @@
+/* design tokens */
+
+:root {
+  /* Colors */
+  --color-cream:      #FAF5EE;
+  --color-blush:      #F5E6E0;
+  --color-rose:       #C8796A;
+  --color-rose-dark:  #A85D50;
+  --color-rose-light: #E8A898;
+  --color-gold:       #C9A96E;
+  --color-gold-light: #E8D5B0;
+  --color-charcoal:   #2C2C2C;
+  --color-muted:      #7A6E6A;
+  --color-white:      #FFFFFF;
+  --color-dark-bg:    #1a0f0d;
+  --color-dark-mid:   #2e1410;
+ 
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', sans-serif;
+ 
+  /* Spacing */
+  --section-padding: 72px 24px;
+  --max-width:       560px;
+ 
+  /* Shadows */
+  --shadow-card:   0 2px 12px rgba(0, 0, 0, 0.06);
+  --shadow-card-lg: 0 4px 20px rgba(0, 0, 0, 0.08);
+ 
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-pill: 20px;
+ 
+  /* Transitions */
+  --transition: 0.25s ease;
+}

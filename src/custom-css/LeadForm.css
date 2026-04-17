@@ -1,0 +1,93 @@
+.lead-form {
+  background: linear-gradient(160deg, var(--color-dark-bg) 0%, var(--color-dark-mid) 100%);
+  padding: 72px 24px 120px;
+}
+ 
+.lead-form__subtitle {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: #c4a89f;
+  text-align: center;
+  margin-bottom: 36px;
+  line-height: 1.65;
+}
+ 
+.lead-form__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+ 
+.lead-form__input,
+.lead-form__select {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(250,245,238,0.2);
+  border-radius: var(--radius-sm);
+  padding: 15px 16px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--color-cream);
+  outline: none;
+  width: 100%;
+  transition: border-color var(--transition);
+}
+ 
+.lead-form__input::placeholder { color: #7a6e6a; }
+ 
+.lead-form__input:focus,
+.lead-form__select:focus {
+  border-color: rgba(200,121,106,0.6);
+}
+ 
+.lead-form__select option { background: var(--color-dark-mid); }
+ 
+.lead-form__submit {
+  background: linear-gradient(135deg, var(--color-rose), var(--color-rose-dark));
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  margin-top: 4px;
+  width: 100%;
+  transition: opacity var(--transition);
+}
+ 
+.lead-form__submit:hover { opacity: 0.9; }
+ 
+.lead-form__call-link {
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--color-gold-light);
+  text-decoration: none;
+}
+ 
+.lead-form__success {
+  background: var(--color-rose);
+  border-radius: var(--radius-md);
+  padding: 32px 24px;
+  text-align: center;
+}
+ 
+.lead-form__success-icon  { font-size: 36px; margin-bottom: 12px; }
+ 
+.lead-form__success-title {
+  font-family: var(--font-display);
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+ 
+.lead-form__success-msg {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: rgba(255,255,255,0.8);
+}

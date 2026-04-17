@@ -1,0 +1,65 @@
+.before-after {
+  background: var(--color-blush);
+  padding: var(--section-padding);
+}
+ 
+.before-after__subtitle {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--color-muted);
+  margin-bottom: 44px;
+  line-height: 1.7;
+  text-align: center;
+}
+ 
+.ba-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+ 
+.ba-card {
+  background: #fff;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-card-lg);
+}
+ 
+.ba-card__images {
+  display: flex;
+}
+ 
+.ba-card__side {
+  flex: 1;
+  position: relative;
+}
+ 
+.ba-card__swatch {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.ba-card__tag {
+  position: absolute;
+  bottom: 8px;
+  font-size: 10px;
+  font-family: var(--font-body);
+  letter-spacing: 0.1em;
+  padding: 3px 8px;
+  border-radius: 3px;
+  color: #fff;
+}
+ 
+.ba-card__tag--before { left: 8px;  background: rgba(0,0,0,0.5); }
+.ba-card__tag--after  { right: 8px; background: var(--color-rose); }
+ 
+.ba-card__footer {
+  padding: 10px 16px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--color-muted);
+}
+ 
+.ba-card__footer strong { color: var(--color-charcoal); }
